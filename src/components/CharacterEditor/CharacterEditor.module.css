@@ -28,5 +28,18 @@
 .characterWrapper {
 }
 
-.controlColumn {
+@media (max-width: 1200px) {
+  .header {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1200px) {
+  .controlColumn {
+    display: flex;
+    gap: 32px;
+    overflow: auto;
+    z-index: 1;
+    position: relative;
+  }
 }
